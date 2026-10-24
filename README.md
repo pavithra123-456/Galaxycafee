@@ -33,4 +33,4 @@ The homepage includes:
 ## 🚀 How to Run the Project
 
 1. Clone this repository:
-git clone :
+git clone :https://pavithra123-456.github.io/Galaxycafee/
