@@ -1,0 +1,179 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #160d0a;
+    color: white;
+}
+
+/* Navbar */
+
+.navbar {
+    background: #21120e;
+}
+
+.navbar-brand {
+    color: #d6a354 !important;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: #d6a354 !important;
+}
+
+/* Buttons */
+
+.main-btn {
+    background-color: #d6a354;
+    color: #160d0a;
+    border: none;
+    padding: 12px 25px;
+    font-weight: 600;
+}
+
+.main-btn:hover {
+    background-color: #f0c477;
+}
+
+/* Hero */
+
+.hero {
+    min-height: 650px;
+
+    background:
+        linear-gradient(rgba(0,0,0,.6), rgba(20,10,8,.8)),
+        url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.hero span {
+    color: #d6a354;
+}
+
+/* Page Banner */
+
+.page-banner {
+    height: 350px;
+
+    background:
+        linear-gradient(rgba(0,0,0,.65), rgba(20,10,8,.8)),
+        url("https://images.unsplash.com/photo-1445116572660-236099ec97a0");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-banner h1 {
+    color: #d6a354;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/* Section */
+
+.section-title {
+    color: #d6a354;
+    font-weight: 700;
+}
+
+/* Cards */
+
+.coffee-card {
+    background: #241512;
+    border: 1px solid #493025;
+    color: white;
+    transition: .3s;
+}
+
+.coffee-card:hover {
+    transform: translateY(-8px);
+}
+
+.coffee-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.price {
+    color: #d6a354;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* About */
+
+.about-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Contact */
+
+.contact-box {
+    background: #241512;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.form-control {
+    background: #160d0a;
+    border: 1px solid #594035;
+    color: white;
+}
+
+.form-control:focus {
+    background: #160d0a;
+    color: white;
+    border-color: #d6a354;
+    box-shadow: none;
+}
+
+/* Footer */
+
+footer {
+    background: #0d0705;
+}
+
+.social-icon {
+    color: #d6a354;
+    font-size: 22px;
+    margin: 8px;
+}
+
+.social-icon:hover {
+    color: white;
+}
+
+/* Mobile */
+
+@media(max-width:768px) {
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .page-banner h1 {
+        font-size: 40px;
+    }
+}
